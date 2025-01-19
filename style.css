@@ -1,0 +1,49 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+body{
+
+    
+    background-color: rgb(223, 226, 229);
+    
+
+}
+table{
+    padding: 2px;
+    background-color: #ffffff33;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid rgb(123, 114, 114);
+    width: 85%;
+    height: 95vh;
+    border-collapse: collapse;
+    
+    
+}
+
+th,tr{
+    border:1px solid rgb(23, 22, 22);
+    padding: 5px;
+    text-align: start;
+    
+    
+}
+td{
+    border: 1px solid rgb(13, 12, 12);
+    padding: 2px;
+    border-left: none;
+    border-right: none;
+    padding-left: 16px;
+    border:1px solid rgb(123, 114, 114);
+}
+#title1{
+    text-align: center;
+}
+#titl{
+    
+    padding: 55px;
+    
+}
