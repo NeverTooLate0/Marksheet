@@ -7,19 +7,20 @@
 body{
 
     
-    background-color: rgb(223, 226, 229);
+    background-color: rgb(255, 255, 255);
     
 
 }
 table{
     padding: 2px;
-    background-color: #ffffff33;
+    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    border:1px solid rgb(123, 114, 114);
-    width: 85%;
+    border:1px solid rgb(0, 0, 0);
+    width: 900px;
     height: 95vh;
     border-collapse: collapse;
+    margin-bottom: 30px;
     
     
 }
@@ -27,9 +28,7 @@ table{
 th,tr{
     border:1px solid rgb(23, 22, 22);
     padding: 5px;
-    text-align: start;
-    
-    
+    text-align: start;       
 }
 td{
     border: 1px solid rgb(13, 12, 12);
@@ -37,13 +36,91 @@ td{
     border-left: none;
     border-right: none;
     padding-left: 16px;
-    border:1px solid rgb(123, 114, 114);
+    border:1px solid rgb(0, 0, 0);
 }
 #title1{
     text-align: center;
 }
-#titl{
-    
-    padding: 55px;
+#lst{
+    padding: 25px;
+}
+#mg{
+    text-align: end;
     
 }
+img{
+    width: 200px;
+    height: 200px;
+}
+#mg , #titl{
+    border: none;
+}
+#mon{
+    margin-left: 120px;
+}
+#prn{
+    margin-left: 95px;
+}
+
+form {
+    max-width: 700px; /* Total form width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  form h1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-column {
+    width: 48%; /* Adjust column width for two equal columns */
+  }
+  
+  form p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  form label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
